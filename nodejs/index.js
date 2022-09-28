@@ -19,7 +19,10 @@ const example_1 = () => {
       };
     }
   );
-
+  /**
+   * Expect Result
+   * it to the console.
+   */
   //   console.log(JSON.stringify(new_progress_exam_list, null, 2));
   console.timeEnd('example_1');
 };
@@ -40,6 +43,10 @@ const example_2 = () => {
     author_map.filter(({ id }) => id === book.id)
   );
 
+  /**
+   * Expect Result
+   * it to the console.
+   */
   //   console.log(JSON.stringify(new_book_list, null, 2));
   console.timeEnd('example_2');
 };

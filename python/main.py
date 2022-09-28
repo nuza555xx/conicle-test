@@ -74,6 +74,8 @@ def example_2():
     print('Time example_2 : ', end - start)
 
 
+# Multi threading
+
 example_task_1 = threading.Thread(target=example_1)
 example_task_2 = threading.Thread(target=example_2)
 
