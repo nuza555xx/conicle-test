@@ -40,27 +40,6 @@ const example_2 = () => {
     author_map.filter(({ id }) => id === book.id)
   );
 
-  //   const new_book_list = book_list.map((book) => {
-  //     const authors = author_map
-  //       .filter(({ book_id }) => book_id === book.id)
-  //       .map(({ author_list }) => author_list);
-
-  //     return {
-  //       ...book,
-  //       author_list: authors,
-  //     };
-  //   });
-
-  //   const new_book_list = book_list.map((book) => {
-  //     author_book_map.forEach(({ book_id, author_id }) => {
-  //       if (book_id === book.id) {
-  //         const author = author_list.find((author) => author.id === author_id);
-  //         if (author) (book.author_list ??= []).push(author);
-  //       }
-  //     });
-  //     return book;
-  //   });
-
   //   console.log(JSON.stringify(new_book_list, null, 2));
   console.timeEnd('example_2');
 };
